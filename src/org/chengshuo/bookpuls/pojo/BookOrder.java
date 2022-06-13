@@ -11,6 +11,9 @@ public class BookOrder implements Serializable {
     private Integer        bid;
     private String buyer;
 
+    public BookOrder() {
+    }
+
     public BookOrder(Integer boid, Integer bonum, String bocode, String botime, Double bodis, Integer bid, String buyer) {
         this.boid = boid;
         this.bonum = bonum;

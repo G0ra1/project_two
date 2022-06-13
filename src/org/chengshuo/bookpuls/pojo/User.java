@@ -8,6 +8,9 @@ public class User implements Serializable {
     private String uspass;
     private Integer ustype;
 
+    public User() {
+    }
+
     public User(Integer usid, String usname, String uspass, Integer ustype) {
         this.usid = usid;
         this.usname = usname;
@@ -15,8 +18,8 @@ public class User implements Serializable {
         this.ustype = ustype;
     }
 
-    public Integer getUsid() {
-        return usid;
+    public Integer getUsid(int usid) {
+        return this.usid;
     }
 
     public void setUsid(Integer usid) {
@@ -46,4 +49,5 @@ public class User implements Serializable {
     public void setUstype(Integer ustype) {
         this.ustype = ustype;
     }
+
 }

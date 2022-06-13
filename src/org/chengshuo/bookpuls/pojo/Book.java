@@ -10,6 +10,9 @@ public class Book  implements Serializable {
     private String bmessage;
     private Integer btid;
 
+    public Book() {
+    }
+
     public Book(Integer bid, String bname, Integer bnum, Double bprice, String bmessage, Integer btid) {
         this.bid = bid;
         this.bname = bname;

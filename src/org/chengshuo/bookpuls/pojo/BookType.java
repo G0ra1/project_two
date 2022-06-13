@@ -6,6 +6,9 @@ public class BookType implements Serializable {
     private Integer btid;
     private String btname;
 
+    public BookType() {
+    }
+
     public BookType(Integer btid, String btname) {
         this.btid = btid;
         this.btname = btname;
